@@ -6,7 +6,7 @@ SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = WaterLevelController.v tt_um_waterLevel_tb.v
+PROJECT_SOURCES = WaterLevelController.v tt_um_tb_WaterLevelController.v
 
 ifneq ($(GATES),yes)
 
