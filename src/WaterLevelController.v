@@ -7,7 +7,7 @@ module WaterLevelController (
     input wire reset_n,       // Active-low asynchronous reset
     input wire s1_high,       // High-level sensor (Bit 1)
     input wire s0_low,        // Low-level sensor (Bit 0)
-    output reg pump_out,      // Pump control signal
+    output reg pump_out      // Pump control signal
     
 );
 
