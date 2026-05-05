@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module tb_WaterLevelController();
+module tt_um_tb_WaterLevelController();
 
     // Signals
     reg clk;
