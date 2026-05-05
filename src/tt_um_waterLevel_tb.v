@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module WaterLevel_tb;
+module tt_um_waterLevel_tb;
 
     // 1. Inputs (Registers) and Outputs (Wires)
     reg clk;
